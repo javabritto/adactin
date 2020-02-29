@@ -17,6 +17,10 @@ while(c>0)
 	b = c%10;
 	c =c/10;
 	li.add(b);
+}
+Collections.sort(li); 
+for (int i = 0; i < li.size(); i++) {
+	 System.out.print(li.get(i));
 	
 }
 Collections.sort(li); 
@@ -25,6 +29,6 @@ for (int i = 0; i < li.size(); i++) {
 	
 }
  }
-	
+ 
 
 }
