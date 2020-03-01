@@ -14,10 +14,12 @@ public class Overload {
 	
 	public static void main(String[] args) {
 		Overload o = new Overload();
+		Overload o1 = new Overload();
 		o.employee(375955);
 		o.employee("Britto", 30);
 	    o.employee(5868);
-		
+		o1.employee(12345);
+		o1.employee("Java", 21);
 	}
 
 }
