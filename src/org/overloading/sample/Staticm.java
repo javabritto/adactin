@@ -9,7 +9,7 @@ public  class Staticm {
  public Staticm(int a) {
 	// TODO Auto-generated constructor stub
 System.out.println("my parent parametrized constructor");
-int b =0, c=58253, d=0,temp =0;
+int b =0, c=58253, d=0,temp =1;
 List<Integer> li =new ArrayList<Integer>();
 
 while(c>0)
